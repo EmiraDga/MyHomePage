@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Header from './header';
-import Main from './main';
+import Header from './components/header';
+import Main from './components/main';
 function App(){
 return (
-<div>
+<div className='App'>
   <Header ></Header>
   <Main 
   name="Emira"></Main>
