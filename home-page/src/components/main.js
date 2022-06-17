@@ -21,8 +21,10 @@ export default function Main(props) {
 
   return (
     <div className="main-class">
+      <div className="greet">
       <h3 id="greeting">Good {timeOfDay} {props.name}!</h3>
       <Search />
+      </div>
 
       <div class="container">
        <Section

@@ -10,10 +10,10 @@ export default function Section(props) {
           <div class="tcontent">
 
 
-            <a href="https://facebook.com" target="_blank">{props.item1}</a>
-            <a href="https://twitter.com" target="_blank">{props.item2}</a>
-            <a href="https://discordapp.com" target="_blank">{props.item3}</a>
-            <a href="https://instagram.com" target="_blank">{props.item4}</a>
+            <a href="https://github.com/EmiraDga" target="_blank">{props.item1}</a>
+            <a href="https://www.freecodecamp.org/" target="_blank">{props.item2}</a>
+            <a href="https://stackoverflow.com/" target="_blank">{props.item3}</a>
+            <a href="https://www.udemy.com/" target="_blank">{props.item4}</a>
 
           </div>
       </div>
