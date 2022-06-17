@@ -37,16 +37,16 @@ export default function Main(props) {
 
 <Section
        title="Social Media"
-       item1="Facebook"
-       item2="Instagram"
-       item3="LinkedIn"
-       item4="Mail"
+       item5="Facebook"
+       item6="Instagram"
+       item7="LinkedIn"
+       item8="Mail"
        />
 <Section
        title="General"
-       item1="Youtube"
-       item2="Notion.io"
-       item3="Esprit"
+       item9="Youtube"
+       itemA="Notion.io"
+       itemB="Esprit"
        />
 
       </div>
