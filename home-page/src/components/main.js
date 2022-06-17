@@ -1,6 +1,7 @@
 import React from "react"
 import Search from "./search";
-import '/home/edga/Documents/MyHomePage/home-page/src/style.css';
+import Section from "./sections";
+import '/home/edga/MyHomePage/home-page/src/style.css';
 
 export default function Main(props){
 const date = new Date()
@@ -22,6 +23,33 @@ else{
     <div className="main-class">
 <h3 id="greeting">Good {timeOfDay} {props.name}!</h3>
 <Search />
+<div className="AllSections">
+<div className="a">
+<Section
+title="Dev"
+FirstLink="Github"
+SecondLink="Stackoverflow"
+ThirdLink='FreeCodeCamp'
+/>
+</div>
+<div className="b">
+<Section
+title="Social Media"
+FirstLink="Facebook"
+SecondLink="Instagram"
+ThirdLink='LinkedIn'
+/>
+</div>
+<div className="c">
+<Section
+title="Entertainement"
+FirstLink="Youtube"
+SecondLink="Notion.io"
+/>
+</div>
+
+</div>
     </div>
+
 )
 }
