@@ -5,25 +5,19 @@ import '/home/edga/MyHomePage/home-page/src/style.css';
 
 export default function Section(props) {
     return (
-        /*<div className="card">
-            <h2 className="card-header">
-                {props.title}
-            </h2>
-            <div className="card-body">
-                <a href="#" id="first">{props.FirstLink}</a>
-                <a href="#" id="second">{props.SecondLink}</a>
-                <a href="#" id="third">{props.ThirdLink}</a>
-                <a href="#" id="fourth">{props.FourthLink}</a>
-          </div>
-        </div>*/
+        <div class="table1">
+        <h3>{props.title}</h3>
+          <div class="tcontent">
 
-        <div className="linksbox">
-					<h3 className="title">   {props.title} </h3>
-                    <a href="#" id="first">{props.FirstLink}</a>
-                <a href="#" id="second">{props.SecondLink}</a>
-                <a href="#" id="third">{props.ThirdLink}</a>
-                <a href="#" id="fourth">{props.FourthLink}</a>
-		</div>
+
+            <a href="https://facebook.com" target="_blank">{props.item1}</a>
+            <a href="https://twitter.com" target="_blank">{props.item2}</a>
+            <a href="https://discordapp.com" target="_blank">{props.item3}</a>
+            <a href="https://instagram.com" target="_blank">{props.item4}</a>
+
+          </div>
+      </div>
+
      
     )
 }

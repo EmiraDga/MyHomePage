@@ -83,7 +83,7 @@ margin: -35px 0 0 -35px;
   }
 
 
-
+/*
  .title, .linksbox a {
     
 	  display: block;
@@ -124,8 +124,39 @@ margin: 200px 0 0 500px;
     margin: 320px 0 0 -200px;   
   }
 
-  .AllSections{
-display: flexbox;
-  }
+  
+ */
+ h3 {
+  font-family:'IBM Plex Mono', monospace!important;
+  display: flex;
+  justify-content: center;
+  margin: 0px 0px 10px 0px;
+  color:#E8A64F;
 
- 
+}
+
+a {
+  margin: auto;
+  text-decoration: none;
+  font-family:'IBM Plex Mono', monospace!important;
+  color: rgba(255, 255, 255, 0.553);
+}
+
+a:hover {
+  color:#E8A64F;
+}
+
+.tcontent {
+  display: flex;
+  flex-direction: column;
+}
+ 	
+.container {
+ display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: space-around;
+margin-top: 0px;
+}
+ 	
+
