@@ -1,7 +1,7 @@
 import React from "react"
 import Search from "./search";
 import Section from "./sections";
-import '/home/edga/MyHomePage/home-page/src/style.css';
+import "../style.css";;
 
 export default function Main(props) {
   const date = new Date()

@@ -1,5 +1,5 @@
 import React from "react"
-import '/home/edga/MyHomePage/home-page/src/style.css';
+import "../style.css";;
 
 export default function Search(){
     return(

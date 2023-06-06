@@ -1,6 +1,6 @@
 import React from "react"
 import ReactDOM from 'react-dom'
-import '/home/edga/MyHomePage/home-page/src/style.css';
+import "../style.css";
 export default function Header(){
 
 return(
